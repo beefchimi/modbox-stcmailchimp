@@ -1,0 +1,9 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+
+	Northern Army: Curtis Dulmage, Rene Antunes, Ryan Anderson, Sian Jones, Mohamed Thiam
+	Site: http://northernarmy.com/
+	Location: Ottawa, Ontario, Canada

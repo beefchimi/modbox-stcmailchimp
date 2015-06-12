@@ -1,0 +1,59 @@
+/ Begin Template: Footer
+%table#tpl_footer.footer{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "100%"}
+
+	%tr
+
+		%td.padding-y{:align => "center", :valign => "middle"}
+
+			%table{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "520"}
+
+				%tr
+
+					%td{:align => "center", :valign => "middle"}
+
+						%h1{"mc:edit" => "edit_content-2_title"} Follow Us
+
+						%table.social{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "150"}
+							%tr
+								%td{:align => "center", :valign => "middle"}
+									%a{:href => "#", :title => "Like us on Facebook"}
+										%img{:src => "https://gallery.mailchimp.com/9d04fb276b7023a982943ca3e/images/baf29ccf-1e8a-40ab-9e43-89b53b889b35.png", :width => "25", :height => "25", :alt => ""}
+								%td{:align => "center", :valign => "middle"}
+									%a{:href => "#", :title => "Pin us on Pinterest"}
+										%img{:src => "https://gallery.mailchimp.com/9d04fb276b7023a982943ca3e/images/df329f36-1b19-4cf3-974e-9f3068dace95.png", :width => "25", :height => "25", :alt => ""}
+								%td{:align => "center", :valign => "middle"}
+									%a{:href => "#", :title => "Follow us on Twitter"}
+										%img{:src => "https://gallery.mailchimp.com/9d04fb276b7023a982943ca3e/images/10d878b6-f39f-4fc7-987a-6b2e13b59514.png", :width => "25", :height => "25", :alt => ""}
+								%td{:align => "center", :valign => "middle"}
+									%a{:href => "#", :title => "See us on Instagram"}
+										%img{:src => "https://gallery.mailchimp.com/9d04fb276b7023a982943ca3e/images/f602ed4d-dae3-4151-a969-c558f74bd0e4.png", :width => "25", :height => "25", :alt => ""}
+
+				%tr
+					%td{:align => "center", :valign => "middle"}
+						:plain
+							<div class="paragraphs">Copyright &copy; *|DATE:y|* St. Charles Market, All rights reserved.</div>
+							<div class="paragraphs">You are receiving this email because you signed up for the St. Charles Market newsletter.</div>
+
+				%tr
+					%td{:align => "center", :valign => "middle"}
+						%img.stc_key{:src => "https://gallery.mailchimp.com/9d04fb276b7023a982943ca3e/images/c1ad98a5-05c9-40c5-8735-4994af140a70.png", :width => "46", :height => "19", :alt => ""}
+
+				%tr
+					%td{:align => "center", :valign => "middle"}
+						:plain
+							<div class="paragraphs">Our mailing address is:</div>
+							<div class="paragraphs">ModBox - 61A York St, Ottawa, ON K1N 5T2</div>
+
+				%tr
+					%td{:align => "center", :valign => "middle"}
+						.link-wrap
+							%a.button{:href => "*|UNSUB|*", :title => "Unsubscribe", :target => "_blank"} Unsubscribe
+
+				/ *|IFNOT:ARCHIVE_PAGE|*
+				%tr.update-profile
+					%td{:align => "center", :valign => "middle"}
+						%a.link_update{:href => "*|UPDATE_PROFILE|*", :title => "Update profile", :target => "_blank"} Update your information
+				%tr.view-in-browser
+					%td{:align => "center", :valign => "middle"}
+						%a.link_browser{:href => "*|ARCHIVE|*", :title => "View in browser", :target => "_blank"} View this newsletter in your browser
+				/ *|END:IF|*
