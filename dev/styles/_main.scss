@@ -73,6 +73,16 @@ div.paragraphs br {
 
 // Image
 // ----------------------------------------------------------------------------
+img.fluid_600 {
+	max-width: 600px !important;
+	width: 100% !important;
+	height: auto !important;
+}
+img.fluid_490 {
+	max-width: 490px !important;
+	width: 100% !important;
+	height: auto !important;
+}
 
 // Divider
 // ----------------------------------------------------------------------------
